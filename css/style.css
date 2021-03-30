@@ -1,0 +1,31 @@
+
+.container h1 {
+    color: rgb(24, 89, 143);
+    font-style: italic;
+    padding-bottom: 1rem ;
+    margin: 1rem;
+}
+    
+ .container h2 {
+     color: rgb(96, 97, 97);
+     font-size:30px;
+ }
+
+ .container p {
+     color: rgb(24, 89, 143);
+     font-size: 18px;
+     font-style: oblique;
+ }
+
+
+
+/*footer*/
+
+  
+#footer p{
+    color: #fff; 
+    background-color: rgb(24, 89, 143);
+    text-align: center;
+    font-style: italic;
+    padding: 0.3rem;
+}
