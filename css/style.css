@@ -10,6 +10,19 @@
      color: rgb(96, 97, 97);
      font-size:30px;
  }
+ .container h3 {
+     color: rgb(96, 97, 97);
+     text-align: center;
+     font-size: 23px;
+     font-style: italic;
+     padding: 0.5rem;
+ }
+
+ .container h4 {
+    color: rgb(24, 89, 143);
+    font-size: 18px;
+    font-style: oblique;
+ }
 
  .container p {
      color: rgb(24, 89, 143);
