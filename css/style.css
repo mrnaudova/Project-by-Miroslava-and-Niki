@@ -1,4 +1,7 @@
 
+
+/* container */
+
 .container h1 {
     color: rgb(24, 89, 143);
     font-style: italic;
@@ -30,7 +33,27 @@
      font-style: oblique;
  }
 
+  /* botton */
 
+  button.btn.btn-primary {
+    margin:1rem 0 ;
+}
+
+.radio-button {
+    text-align: center;
+    color: rgb(24, 89, 143);
+    font-style: italic;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.radio-button h3{
+    color: rgb(24, 89, 143);
+     text-align: center;
+     font-size: 23px;
+     font-style: italic bold;
+     padding: 0.5rem;
+     margin: 4rem;
+}
 
 /*footer*/
 
@@ -42,3 +65,16 @@
     font-style: italic;
     padding: 0.3rem;
 }
+
+img {
+    margin: 4rem  ;
+    margin-right: 0;
+    max-width: 55%;
+}
+ 
+/* main */
+
+.main {
+    min-height: 100vh;
+}
+ 

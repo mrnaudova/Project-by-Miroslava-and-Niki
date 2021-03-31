@@ -65,10 +65,41 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main  class="main">
       <div class="container">
-        <h1>Формуляр за връзка(трябва да бъде добавен)</h1>
+        <h1>Формуляр за връзка</h1>
       </div>
+    <body>
+      <div class="container mt-3">
+        <h3>Моля, попълнете формуляра за връзка с нас:</h3>
+        <p>Здравейте! Моля, въведете следните данни тук: </p>
+        <form action="/action_page.php">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            </div>
+            <input type="text" class="form-control" placeholder="Име" id="name" name="name">
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Фамилия" id="fam" name="family">
+            <div class="input-group-append">
+            </div>
+          </div>
+          <p> Вашият E-mail служи за обратна връзка с нас.</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Вашият E-mail" id="mail" name="email">
+            <div class="input-group-append">
+            </div>
+          </div>
+          <p> Помогна ли Ви сайтът с подготовката по химия? Може да ни разкажете като оставите коментар.</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Вашият коментар" id="com" name="comment">
+            <div class="input-group-append">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Изпрати</button> 
+        </form>
+      </div>
+      </body>
     </main>
     <footer id="footer">
         <p>All rights reserved &copy; 2021</p>
